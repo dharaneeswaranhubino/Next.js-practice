@@ -6,7 +6,7 @@ export default function Home() {
       <h1>
         Welcome home!
       </h1>
-      <Link href="/products">Product</Link>
+      <Link href="/products">Product</Link> 
       <Link href="/about">About</Link>
     </>
     // <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">

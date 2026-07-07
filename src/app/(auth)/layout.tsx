@@ -6,7 +6,6 @@ const layout = ({ children }: { children: React.ReactNode }) => {
             <div>{children}</div>
             <h2>auth layout </h2>
         </>
-
     )
 }
 
