@@ -1,8 +1,11 @@
 "use client"
-const ErrorBoundary = ({error}:{error:Error}) => {
+const ErrorBoundary = ({ error }: { error: Error }) => {
     return (
-        <div>{error.message}</div>
-        // <div>Error Boundary</div>
+        <>
+
+            <div>Error is :{error.message}</div>
+            {/* <div>Error Boundary</div> */}
+        </>
     )
 }
 
