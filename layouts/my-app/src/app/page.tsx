@@ -1,6 +1,11 @@
 import Link from "next/link";
 
-export default function Home() {
+export default async function Home() {
+
+  const data = await fetch("http://localhost:5000/post");
+  const res = await data.json();
+  console.log(res);
+  
   return (
     <>
       <h1>
@@ -12,6 +17,12 @@ export default function Home() {
       <Link href="/article/breaking-news-123?lang=en">Read in English</Link>
       <Link href="/article/breaking-news-123?lang=sp">Read in Spanish</Link>
 
+
+      <div className="border-2 border-green-500 p-2">
+        {res.map((item)=>(
+          <p key={item.id}>{item.name}</p>
+        ))}
+      </div>
     </>
   );
 }

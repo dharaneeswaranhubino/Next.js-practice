@@ -1,0 +1,59 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "name": "Dharani",
+      "role": "Fullstack Developer"
+    },
+    {
+      "id": 2,
+      "name": "Arjun",
+      "role": "Backend Developer"
+    },
+    {
+      "id": 3,
+      "name": "Priya",
+      "role": "UI/UX Designer"
+    },
+    {
+      "id": 4,
+      "name": "Karthik",
+      "role": "DevOps Engineer"
+    },
+    {
+      "id": 5,
+      "name": "Sneha",
+      "role": "Frontend Developer"
+    },
+    {
+      "id": 6,
+      "name": "Vignesh",
+      "role": "QA Engineer"
+    },
+    {
+      "id": 7,
+      "name": "Meera",
+      "role": "Product Manager"
+    },
+    {
+      "id": 8,
+      "name": "Ravi",
+      "role": "Database Administrator"
+    },
+    {
+      "id": 9,
+      "name": "Anitha",
+      "role": "Mobile App Developer"
+    },
+    {
+      "id": 10,
+      "name": "Suresh",
+      "role": "Technical Lead"
+    },
+    {
+      "id":11,
+      "name":"Test",
+      "role":"Test"
+    }
+  ]
+}
